@@ -13,4 +13,5 @@ use yii\widgets\LinkPager;
         <?php endforeach; ?>
     </ul>
 
+<a href="?r=event-registration/create">Sign up for an event.</a>
 <?= LinkPager::widget(['pagination' => $pagination]) ?>
