@@ -1,17 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mrodarte
- * Date: 2/3/2016
- * Time: 2:33 PM
- */
 
 namespace app\controllers;
 
-
-use app\models\Event;
+use yii\web\Controller;
 use yii\data\Pagination;
-use yii\rest\Controller;
+use app\models\Event;
 
 class EventController extends Controller
 {
